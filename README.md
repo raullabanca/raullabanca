@@ -8,9 +8,9 @@ How to install:
 6. Execute "php bin/console server:run"
 
 People GET:
-api/people
-api/person/{id}
+1. api/people
+2. api/person/{id}
 
 Shiporders GET:
-api/shiporders
-api/shiporder/{id}
+1. api/shiporders
+2. api/shiporder/{id}

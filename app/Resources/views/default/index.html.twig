@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<h2>Upload page</h2>
+<div class="upload-wrapper">
+<div id="error_output"></div>
+	<!-- file drop zone -->
+    <div id="dropzone">
+    	<i>Drop files here</i>
+        <!-- upload button -->
+        <span class="button btn-blue input-file">
+            Browse Files <input id="fileupload" type="file" name="files[]" multiple>
+        </span>
+    </div>
+    <!-- The container for the uploaded files -->
+    <div id="files" class="files"></div>
+</div>
+
+    
+{% endblock %}
+
+{% block javascripts %}
+<script src="./assets/js/site.js"></script>
+{% endblock %}
